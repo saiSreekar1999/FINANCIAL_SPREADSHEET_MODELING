@@ -1,39 +1,27 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/prabhupavitra/Financial-Modeling/blob/master/Loan%20Amortization_Pandas.ipynb)
+Financial modeling involves creating a simplified representation of a real-world financial scenario to forecast a company's financial performance into the future.
 
-# Financial Modeling
+### Model 1: Amortization Schedule
 
-### What is financial modeling?
+An amortization schedule is a detailed record of periodic payments on a loan, indicating how much of each payment goes towards the principal amount and how much towards interest until the loan is fully paid off at the end of its term.
 
-Financial modeling is the task of building an abstract representation (a model) of a real world financial situation.
+### Key Elements of an Amortization Schedule in Financial Modeling
 
-## Model 1 : Amortization Schedule
+#### Loan Amount
+This is the initial balance or the total amount borrowed for the loan or mortgage.
 
-An amortization schedule is a complete table of periodic loan payments, showing the amount of principal and the amount of interest that comprise each payment until the loan is paid off at the end of its term. 
+#### Term in Years
+This defines the duration over which the loan will be repaid, typically expressed in years.
 
-### Components of a Amortization Schedule in a Financial Model
+#### Interest Rate
+This is the annual fixed rate applied to the loan, determining how much extra will be paid in addition to the principal balance over the life of the loan.
 
-#### Loan amount
+#### Payment Per Period
+Each payment made is a combination of both principal and interest. Initially, payments are predominantly interest, with a shift towards principal in the latter part of the schedule.
 
-Original or expected balance for your mortgage/loan.
+#### Total Interest
+This is the cumulative amount of interest paid over the loan’s duration, assuming no additional principal payments are made.
 
-#### Term in years
+#### Total Payments
+The aggregate of all payments made over the lifetime of the loan, which includes both principal and interest, assuming there are no prepayments. 
 
-The number of years over which you will repay this loan.
-
-#### Interest rate
-
-Annual fixed interest rate for this loan. 
-
-#### Payment per period
-
-Includes principal payment and interest payment (PI).
-While each periodic payment is the same amount early in the schedule, the majority of each payment is interest; later in the schedule, the majority of each payment covers the loan's principal. 
-
-#### Total interest
-
-Total of all interest paid over the full term of the mortgage. This total interest amount assumes that there are no prepayments of principal.
-
-#### Total payments
-
-Total of all monthly payments over the full term of the mortgage. This total payment amount assumes that there are no prepayments of principal.
-
+This model allows borrowers to see how each payment affects their loan balance over time, helping in budgeting and planning for debt repayment.
